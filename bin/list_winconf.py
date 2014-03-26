@@ -21,4 +21,8 @@ def main():
 
 
 if __name__ == '__main__':
+    # HACK HACK HACK
+    # Put Python script dir at the end, as script and module clash :-(
+    import sys
+    sys.path = sys.path[1:] + [sys.path[0]]
     main()
