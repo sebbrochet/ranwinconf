@@ -191,11 +191,6 @@ DEFAULT_CONFIGURATION = """
 # This is the default configuration file
 # Please edit it and update values with your environment
 [GENERAL]
-# /!\ IMPORTANT /!\
-# Update parameters below with your environment
-# Then change NO_GO to false to let ranwinconf use configuration file
-NO_GO = true
-
 EMAIL_FROM = ranwinconf@yourdomain.com
 EMAIL_TO = winadmin@yourdomain.com
 MTA_SERVER = youremailserver.com
