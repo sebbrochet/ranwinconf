@@ -16,12 +16,12 @@ Installation:
 
 To install, just do:
 
-python setup.py install
+    python setup.py install
 
 Usage:
 ------
 
-usage: ranwinconf.py [-h] [-c CONFIG] [--v] action
+ranwinconf.py [-h] [-c CONFIG] [--v] action
 
 Track changes of the configuration of your windows servers.
 
@@ -34,7 +34,7 @@ optional arguments:
                         Configuration file to use or create
   --v                   Print program version and exit.
 
-GENCONFIG: generate default configuration file, to be customized with your environment.
+GENCONFIG: generate default configuration file, to be customized with your environment.  
 RUN: get configuration for each server and generates corresponding files.
 
 Documentation:
